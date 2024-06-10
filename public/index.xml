@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile Linux</title>
+    <link>http://localhost:44089/</link>
+    <description>Recent content on Mobile Linux</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 10 Jun 2024 08:48:50 +0000</lastBuildDate>
+    <atom:link href="http://localhost:44089/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Openbox</title>
+      <link>http://localhost:44089/posts/install-openbox/</link>
+      <pubDate>Mon, 10 Jun 2024 08:48:50 +0000</pubDate>
+      <guid>http://localhost:44089/posts/install-openbox/</guid>
+      <description>install openbox on termux langkah pertama update termux dulu apt update -y&#xA;lalu install Openbox &amp;amp; tigervnc apt install openbox tigervnc dbus&#xA;dan install nitrogen untuk set wallpaper apt install nitrogen thunar&#xA;lalu setting vnc mkdir -p ~/.vnc&#xA;echo &amp;ldquo;#!/bin/bash&#xA;[ -r ~/.Xresources ] &amp;amp;&amp;amp; xrdb ~/.Xresources&#xA;export PULSE_SERVER=127.0.0.1&#xA;export DISPLAY=:1&#xA;XAUTHORITY=~/.Xauthority&#xA;export XAUTHORITY&#xA;openbox-session&amp;rdquo; &amp;gt; ~/.vnc/xstartup&#xA;chmod +x ~/.vnc/xstartup&#xA;wget https://raw.githubusercontent.com/Mobile-Linux-Official/Dotconfig/main/vncserver-start -O /usr/local/bin/vncserver-start&#xA;wget https://raw.githubusercontent.com/Mobile-Linux-Official/Dotconfig/main/vncserver-stop -O /usr/local/bin/vncserver-stop&#xA;chmod +x /usr/local/bin/vncserver-start</description>
+    </item>
+    <item>
+      <title>Installing Termux</title>
+      <link>http://localhost:44089/posts/installing-termux/</link>
+      <pubDate>Mon, 10 Jun 2024 08:10:51 +0000</pubDate>
+      <guid>http://localhost:44089/posts/installing-termux/</guid>
+      <description>Tutorial instalasi termux pertama kali&#xA;langkah pertama kita update termuxnya&#xA;Command :&#xA;pkg update &amp;amp;&amp;amp; pkg upgrade -y&#xA;ke 2 kita install package yang diperlukan&#xA;Command :&#xA;pkg install git nano wget curl&#xA;sekian tutorialnya&#xA;Thanks you </description>
+    </item>
+  </channel>
+</rss>

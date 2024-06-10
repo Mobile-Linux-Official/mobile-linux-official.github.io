@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:44089/install-openbox/</loc>
+    <lastmod>2024-06-10T08:48:50+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:44089/</loc>
+    <lastmod>2024-06-10T08:48:50+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:44089/posts/installing-termux/</loc>
+    <lastmod>2024-06-10T08:10:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:44089/posts/</loc>
+    <lastmod>2024-06-10T08:10:51+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:44089/categories/</loc>
+  </url><url>
+    <loc>http://localhost:44089/tags/</loc>
+  </url>
+</urlset>
