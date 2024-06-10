@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'http://mobile-linux-official.gihub.io'
 languageCode = 'en-us'
 title = 'Mobile Linux'
 theme = 'newsroom'
